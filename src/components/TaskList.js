@@ -72,6 +72,7 @@ PureTaskList.propTypes = {
   /** Event to change the task to archived */
   onArchiveTask: PropTypes.func.isRequired,
 };
+
 PureTaskList.defaultProps = {
   loading: false,
 };
