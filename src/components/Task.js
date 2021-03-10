@@ -1,6 +1,9 @@
 import React from "react";
 import PropTypes from "prop-types";
 
+// first create component implemetation then create its corresponding story tests in stories file
+// each task is represented differently based on their state so we need the ff props: title, state
+// Task takes in attributes needed and 2 actions to take on a task (& move it between lists)
 export default function Task({
   task: { id, title, state },
   onArchiveTask,
